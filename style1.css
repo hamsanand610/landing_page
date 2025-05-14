@@ -1,0 +1,53 @@
+/* General Body Styling */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+body {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4') no-repeat center center/cover;
+  padding: 120px 20px;
+}
+
+/* Buttons */
+.btn-lg {
+  padding: 12px 30px;
+  font-size: 1.25rem;
+  border-radius: 8px;
+}
+#order{
+  background: url(2nd_image.jpg);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Carousel Styling */
+.carousel-inner img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer p {
+  margin: 6px 0;
+}
+.glass{
+  background-color: rgb(235, 239, 243,0.3);
+  border-radius: 30px;
+  backdrop-filter: blur(5px);
+  min-width: fit-content;
+  height: auto; 
+  padding: 20px 0px;
+  color: black;
+}
